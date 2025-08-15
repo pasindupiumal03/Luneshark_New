@@ -1,16 +1,52 @@
-# Luneshark - AI-Powered Web3 Platform
+# 🦈 Luneshark - AI-Powered Web3 Platform
 
-A modern Next.js application featuring AI chat, cryptocurrency tools, and exclusive features for $LUNESHARK token holders.
+A comprehensive Web3 platform featuring AI-powered tools, cryptocurrency analytics, and media content access. Built with Next.js 14 and integrated with the Solana blockchain.
 
-## ✨ Features
+## ✨ Key Features
 
-- 🤖 **AI-Powered Chat** - Intelligent chat assistant with multiple interaction modes
-- 💰 **Wallet Integration** - Connect your Solana wallet (Phantom, Solflare, etc.)
-- 📊 **Crypto Tools** - Track prices, analyze trends, and manage your portfolio
-- 🎨 **AI Image Generation** - Create stunning visuals with AI (Premium)
-- 🚀 **Fast & Modern UI** - Built with Next.js 14 and Tailwind CSS
-- 🌐 **Responsive Design** - Works on all devices
-- 🔒 **Secure** - Client-side wallet operations and secure API routes
+### 🎮 Torrent Game Search & Download
+- Search for games across multiple torrent sources
+- Filter by various qualities and versions
+- Direct download links for easy access
+
+### 🎬 Torrent Movie Search & Download
+- Search movies with detailed metadata
+- Multiple quality options and sources
+- Stream or download your favorite content
+
+### 📊 Token Analytics
+- Real-time Solana token price tracking
+- Detailed token metrics and statistics
+- Interactive price charts and historical data
+- Market cap, volume, and price change indicators
+
+### 🎨 AI Image Generator
+- Generate unique images using AI
+- Customizable prompts and styles
+- High-resolution downloads
+- Save and manage your creations
+
+### 💬 AI Chatbot Assistant
+- Intelligent conversation with AI
+- Context-aware responses
+- Multiple interaction modes
+- Web3 and crypto knowledge base
+
+### 📈 Trending Tokens
+- Discover trending Solana tokens
+- Real-time price updates
+- Volume and market cap tracking
+- Quick access to token analytics
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 14, React, TypeScript
+- **Styling**: Tailwind CSS, Shadcn UI
+- **Blockchain**: Solana (Web3.js, @solana/wallet-adapter)
+- **AI**: Custom AI integration for chat and image generation
+- **State Management**: React Context, React Query
+- **API**: Next.js API Routes
+- **Deployment**: Vercel/Netlify ready
 
 ## 🚀 Getting Started
 
@@ -18,31 +54,93 @@ A modern Next.js application featuring AI chat, cryptocurrency tools, and exclus
 
 - Node.js 18.0.0 or higher
 - npm 9.0.0 or higher
+- Solana CLI (for development)
 - A modern web browser with Solana wallet extension (Phantom, Solflare, etc.)
-- Git for version control
 
-### Local Development
+### Installation
 
 1. Clone the repository:
-
    ```bash
-   git clone https://github.com/yourusername/plio.git
-   cd plio
+   git clone https://github.com/yourusername/luneshark.git
+   cd luneshark
    ```
 
 2. Install dependencies:
-
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
 3. Set up environment variables:
-
    ```bash
    cp .env.example .env.local
    ```
+   Update the `.env.local` file with your API keys and configurations.
 
-   Then edit `.env.local` and add your API keys.
+4. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🔧 Configuration
+
+### Environment Variables
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```env
+NEXT_PUBLIC_SOLANA_NETWORK=mainnet-beta # or devnet/testnet
+NEXT_PUBLIC_RPC_URL=your_rpc_url_here
+NEXT_PUBLIC_API_URL=your_api_url_here
+# Add other required API keys
+```
+
+## 🌐 Deployment
+
+### Vercel Deployment
+
+1. Push your code to a GitHub/GitLab/Bitbucket repository
+2. Import the project on Vercel
+3. Add your environment variables
+4. Deploy!
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=YOUR_REPO_URL)
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📞 Support
+
+For support, email support@luneshark.com or join our [Discord](https://discord.gg/luneshark).
+
+## 🔗 Links
+
+- [Website](https://luneshark.com)
+- [Documentation](https://docs.luneshark.com)
+- [Twitter](https://twitter.com/luneshark)
+- [Telegram](https://t.me/luneshark)
+
+---
+
+<p align="center">
+  Made with ❤️ by the Luneshark Team
+</p>
 
 4. Run the development server:
 
